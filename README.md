@@ -49,13 +49,20 @@ Data for the coronavirus statistics was pulled from the reports that the John Ho
 
 Made with Python, Matplotlib, and Basemap
 
+### Magic the Gathering Random Card Generator
+
+Now that there are more than 20,000 unique Magic the Gathering cards, I knew it would take time to find the best cards for my deck. 
+My current deck uses cards that are only blue, black, or green, and specializes in creatures that have an effect when they enter the battlefield.
+Using Scrython's card database and Regex, I was able to create a random card generator that specifically returns blue, black, green, and colorless cards with an "enters the battlefield" effect. 
+
+Made with Python, Scrython (Scryfall API), Regex
+
 ### City to Zip Web Application
 
 This project was mostly a sandbox to test Brython (Browser Python), which let's users program websites using Python instead of Javascript. 
 The user interface of this application is a table with a textbox, whose value gets replaced. While the html itself is simple, the concept of Browser Python is awesome.
 
 Made with Python, HTML, CSS, Brython
-
 
 ### 'Feelix' | Emotion Journal for HackDavis 2020 
 
@@ -65,11 +72,3 @@ The main idea with out limited knowledge was to validate emotions, and provide r
 There was also an effort to ask for confirmation and detect negation (i.e. 'I am not sad')
 
 Made with Python
-
-### Magic the Gathering Random Card Generator
-
-Now that there are more than 20,000 unique Magic the Gathering cards, I knew it would take time to find the best cards for my deck. 
-My current deck uses cards that are only blue, black, or green, and specializes in creatures that have an effect when they enter the battlefield.
-Using Scrython's card database and Regex, I was able to create a random card generator that specifically returns blue, black, green, and colorless cards with an "enters the battlefield" effect. 
-
-Made with Python, Scrython (Scryfall API), Regex
