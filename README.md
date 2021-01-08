@@ -1,7 +1,7 @@
 
 ## Projects
 
-*This is a collection of some of my recent projects
+*This is a collection of some of my recent projects*
 
 ### Pokemon Johto Pokedex Voice Assistant 
 
