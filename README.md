@@ -3,6 +3,12 @@
 
 *This is a collection of some of my recent projects*
 
+### Thumbs Up Clicker
+
+Overcrowded Tycoon is a mobile game by Zeptolab, where you simulate the creation of an amusement park. In that game, guests can show their satisfaction with a thumbs up emoji inside a little speech bubble. This program uses PyAutoGUI to detect those thumbs up emojis on my screen, and click them. In order to project my phone screen to my computer, I used Windows Phone Link.
+
+Made with Python, Windows Phone Link,  PyAutoGUI, and win32api
+
 ### Pokemon Johto Pokedex Voice Assistant 
 
 This is a simple voice assistant that returns information on Pokemon from the Johto region based on user voice queries. 
@@ -18,7 +24,7 @@ In order to determine the chosen game, there is both a GUI set up using Tkinter,
 The captured data is transferred to Arduino across a serial port in order to change the color of an individually addressible LED strip.
 In addition to the LED strip, the code also is capable of changing the color of Kasa bulbs, adjusting the speed of Dyson fans, sending text messages using Twilio, and sending toast notifications.
 
-Made primarily with Python, PyTesseract, Arduino, FastLED
+Made with Python, PyTesseract, Arduino, FastLED
 
 ### Secret Santa Randomizer 
 
