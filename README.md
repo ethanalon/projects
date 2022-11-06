@@ -3,6 +3,14 @@
 
 *This is a collection of some of my recent projects*
 
+### Magic the Gathering Random Card Alexa Skill
+
+Now that there are more than 20,000 unique Magic the Gathering cards, I knew it would take time to find the best cards for my deck. 
+My current deck only uses cards that are only blue, black, or green, and it specializes in creatures that have an effect when they enter the battlefield.
+Using Scrython's card database and Regex, I was able to create a random card generator that specifically returns blue, black, green, and colorless cards with an "enters the battlefield" effect. Then, I turned this powerful query into an Alexa Skill to make it more accessible. It isn't publically published since it has a very very specific use case, but I still use it for curiosity and fun.
+
+Made with Python, Scrython (Scryfall API), Regex, Alexa Skills Kit
+
 ### Thumbs Up Clicker
 
 Overcrowded Tycoon is a mobile game by Zeptolab, where you simulate the creation of an amusement park. In that game, guests can show their satisfaction with a thumbs up emoji inside a little speech bubble. This program uses PyAutoGUI to detect those thumbs up emojis on my screen, and click them. In order to project my phone screen to my computer, I used Windows Phone Link.
@@ -34,15 +42,13 @@ The data of the pairs was then saved to a text file, and used again with a dicti
 
 Made with Python, Twilio
 
-### Alexa Skill Code Template
+### Graph Database Alexa Skill Query
 
-Kin-Keepers | Junior Software Engineer | Summer 2020
+Kin-Keepers | Software Engineer | Summer 2021
 
 In Spring 2020 I started working for a company called Kin-Keepers. Kin-Keepers focuses on creating a voice of representation for seniors by creating services and technology. 
 My specific job was to design Alexa skills and explore Voice User Interface a viable solution for seniors without computer access. 
-In addition to the skills I made, I took the opportunity to create a template for future skill development. 
-My Alexa Skill Code Template is not only a step-by-step guide to creating Alexa skills, but also a fill-in-the-blank system for custom skill responses. 
-Kin-Keepers mostly wanted simple call and response style skills, and this template made that process much easier. 
+Without releasing confidential information, I can disclose that I was in charge of connecting a graph database system to an Alexa Skill. So this skill was able to query our remote database and get information stored in it. 
 
 Made using Python and Alexa Skills Kit
 
@@ -54,14 +60,6 @@ These points scaled in opacity based on the number of cases or deaths with respe
 Data for the coronavirus statistics was pulled from the reports that the John Hopkins Center for Systems Science and Engineering put on Github.
 
 Made with Python, Matplotlib, and Basemap
-
-### Magic the Gathering Random Card Generator
-
-Now that there are more than 20,000 unique Magic the Gathering cards, I knew it would take time to find the best cards for my deck. 
-My current deck uses cards that are only blue, black, or green, and specializes in creatures that have an effect when they enter the battlefield.
-Using Scrython's card database and Regex, I was able to create a random card generator that specifically returns blue, black, green, and colorless cards with an "enters the battlefield" effect. 
-
-Made with Python, Scrython (Scryfall API), Regex
 
 ### City to Zip Web Application
 
