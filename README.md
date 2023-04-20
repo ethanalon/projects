@@ -3,11 +3,20 @@
 
 *This is a collection of some of my recent projects*
 
-### Magic the Gathering Random Card Alexa Skill
+### Magic the Gathering Collection Database
 
 Now that there are more than 20,000 unique Magic the Gathering cards, I knew it would take time to find the best cards for my deck. 
-My current deck only uses cards that are only blue, black, or green, and it specializes in creatures that have an effect when they enter the battlefield.
-Using Scrython's card database and Regex, I was able to create a random card generator that specifically returns blue, black, green, and colorless cards with an "enters the battlefield" effect. Then, I turned this powerful query into an Alexa Skill to make it more accessible. It isn't publically published since it has a very very specific use case, but I still use it for curiosity and fun.
+My current deck only uses cards that are only blue, black, or green, and it specializes in creatures that have an effect when they enter the battlefield. For some terrible reason, my love for these specific cards led me to the arduous task of collecting them all.
+
+Using Scrython's card database and Regex, I was able to create a custom query that specifically returns blue, black, green, and colorless cards with a triggered "enters the battlefield" effect. Then, I used the output of the HTTP request for the Scryfall API of this query and ran it through a custom function I created in Python. This function added a column to check if the card is in my collection or not, and removed some other unnecessary columns. When the data was finally clean and aggregated, it was passed into BigQuery to create my very own collection database. Now I can run SQL queries to check if I am missing a specific card, or to see the entire list of cards in my collection.
+
+Made with Python, Scrython (Scryfall API), Regex, BigQuery, SQL
+
+### Magic the Gathering Random Card Alexa Skill
+
+Note: I wrote this skill *before* I created my fancy BigQuery database, so it does not implement the Collection database at all. Maybe in the future it will.
+
+Using Scrython's card database and Regex, I was able to create a random card generator that specifically returns blue, black, green, and colorless permenant cards with a triggered "enters the battlefield" effect. Then, I turned this powerful query into an Alexa Skill to make it more accessible. It isn't publically published since it has a very very specific use case, but I still use it for curiosity and fun.
 
 Made with Python, Scrython (Scryfall API), Regex, Alexa Skills Kit
 
