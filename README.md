@@ -16,7 +16,7 @@ Made with Python, Scrython (Scryfall API), Regex, BigQuery, SQL
 
 Note: I wrote this skill *before* I created my fancy BigQuery database, so it does not implement the Collection database at all. Maybe in the future it will.
 
-Using Scrython's card database and Regex, I was able to create a random card generator that specifically returns blue, black, green, and colorless permenant cards with a triggered "enters the battlefield" effect. Then, I turned this powerful query into an Alexa Skill to make it more accessible. It isn't publically published since it has a very very specific use case, but I still use it for curiosity and fun.
+Also using Scrython's card database and Regex, I created a random card generator that specifically returns blue, black, green, and colorless permenant cards with a triggered "enters the battlefield" effect. Then, I turned this powerful query into an Alexa Skill to make it more accessible. It isn't publically published since it has a very very specific use case, but I still use it for curiosity and fun.
 
 Made with Python, Scrython (Scryfall API), Regex, Alexa Skills Kit
 
