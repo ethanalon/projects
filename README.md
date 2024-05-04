@@ -3,6 +3,16 @@
 
 *This is a collection of some of my recent projects*
 
+### Lorcana Card Scanner and Classifier
+
+Lorcana is a new Trading Card Game by Disney and Ravensburger. Leveraging the power of OpenCV, this project enables webcam scanning for card identification.
+
+Presently, the project focuses on identifying cards and overlaying their names onto the webcam feed. However, it's poised for future enhancements. The inspiration stemmed from observing card scanners utilized in Magic the Gathering tournaments and livestreams.
+
+Users can conveniently scan their physical cards, generating larger and clearer images in a separate frame. Moreover, potential expansions include integrating TCGPlayer functionality to offer pricing information or aid in collection tracking.
+
+Made with Python, OpenCV
+
 ### Magic the Gathering Collection Database
 
 Now that there are more than 20,000 unique Magic the Gathering cards, I knew it would take time to find the best cards for my deck. 
