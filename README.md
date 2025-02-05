@@ -48,7 +48,7 @@ Made with Python, SQLite, Google Text To Speech
 Using PyTesseract, this code is capable of reading data from my main monitor in order to detect important stats across four games by isolating a fraction of the screen. 
 It is capable of reading numerical, text, and color data depending on the game. 
 In order to determine the chosen game, there is both a GUI set up using Tkinter, and automatic detection by checking subprocesses. 
-The captured data is transferred to Arduino across a serial port in order to change the color of an individually addressible LED strip.
+The captured data is transferred to Arduino across a serial port in order to change the color of an individually addressable LED strip.
 In addition to the LED strip, the code also is capable of changing the color of Kasa bulbs, adjusting the speed of Dyson fans, sending text messages using Twilio, and sending toast notifications.
 
 Made with Python, PyTesseract, Arduino, FastLED
