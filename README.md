@@ -3,6 +3,18 @@
 
 *This is a collection of some of my recent projects*
 
+### Email Parser
+
+Recently, I started selling cards on TCGPlayer.com, but the platform recently restricted access to its API for sellers and users. To streamline the order tracking process, I developed a program that runs periodically, pulling new order emails using the Gmail API.
+
+The program parses incoming emails to check if the subject or body contains the default order confirmation phrase, “Your TCGPlayer.com items of <card_name> have sold!” From there, it creates and updates a pull list of recently purchased cards based on the information found in the email.
+
+To optimize efficiency, the script includes a time-based functionality. Each time it runs, it records two timestamps: the time of the most recent email received and the current time. This ensures that the program only pulls emails that arrived after the last checked timestamp, preventing unnecessary duplication of entries in the pull list.
+
+Next, I plan to enhance the script so that it can recognize when I’ve finished shipping a card from the pull list. This will ensure that only the cards that still need to be shipped are included in the pull list.
+
+Made with Python, Regex, Gmail API
+
 ### Lorcana Card Scanner and Classifier
 
 Lorcana is a new Trading Card Game by Disney and Ravensburger. Leveraging the power of OpenCV, this project enables webcam scanning for card identification.
